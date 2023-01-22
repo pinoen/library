@@ -23,21 +23,21 @@
         <form action="#">
 
           <label for="code">Code</label>
-          <input type="text" placeholder="Code" id="code" name="code">
+          <input type="text" placeholder="Code" id="code" name="code" required>
     
           <label for="title">Title</label>
-          <input type="text" placeholder="Title" id="title" name="title">
+          <input type="text" placeholder="Title" id="title" name="title" required>
     
           <label for="author">Author</label>
-          <input type="text" placeholder="Author" id="author" name="author">
+          <input type="text" placeholder="Author" id="author" name="author" required>
     
           <label for="pages">Pages</label>
-          <input type="number" placeholder="Number of pages" id="pages" name="pages">
+          <input type="number" placeholder="Number of pages" id="pages" name="pages" required>
     
           <label for="read">Has been read it?</label>
           <div>
-            <input type="radio" name="read" id="yes">Yes
-            <input type="radio" name="read" id="no">No
+            <input type="radio" name="read" id="yes" value="yes">Yes
+            <input type="radio" name="read" id="no" value="no" checked>No
           </div>
           <button type="submit">Save</button>
         </form>
